@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #D3F4FB;
+}
+
+
+
+
+header {
+    background-color: #27BD80;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo-container img {
+    margin-left: 20px;
+    width: 118px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #ECF3FB;    
+}
+
+.flex-group {
+    display: flex;
+    align-items: center;
+}
+
+.criar-conta-header {
+    color: #23424A;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.entrar-header {
+    color: #fff;
+    background-color: #23424A;
+    margin-right: 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 1rem;
+    cursor: pointer;
+    width: 4.5rem;
+    height: 2rem;
+    flex-shrink: 0;
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+
+
+
+
+
+
+.login{
+    background: #ECF3FB;
+    border-radius: 10px;
+    width: 480px;
+    padding: 40px;
+    border-radius: 0.5rem;
+    border: 2px solid #23424A;
+
+}
+
+
+.user-profile-pic {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.user-icon {
+    align-self: center;
+    width: 15rem;
+    height: 12rem;
+    margin-bottom: 80px;
+}
+
+.login .box-user {
+    position: relative;
+}
+.login .box-user input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 30px;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.login .box-user label {
+    position: absolute;
+    top: -20;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #23424A;
+    pointer-events: none;
+    transition: .5s;
+}
+.login .box-user input:focus ~ label,
+.login .box-user input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #23424A;
+    font-size: 12px;
+}
+.forget {
+    font-size: 11px;
+    color: #23424A;
+    float: right;
+}
+.submit-btn{
+    position: relative;
+    display: inline-block;
+    padding: 12px 20px;
+    color: #23424A;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+    margin-top: 20px;
+    transition: .5s;
+}
+
+.submit-btn span{
+    position: absolute;
+    display: block;
+}
+
+.entrar-btn {
+    color: #fff;
+    background-color: #23424A;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    padding: 1rem 1.25rem;
+    text-decoration: none;
+}
